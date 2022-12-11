@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>山人米香醇酒行</title>
+    <meta name="keywords" content="山人米香醇酒行">
+    <link href="res/static/img/logo.jpg" rel="shortcut icon">
+    <link rel="stylesheet" href="res/layui/css/layui.css">
+    <link rel="stylesheet" href="res/static/css/index.css">
+</head>
+<body>
+<!-- nav部分 -->
+<div class="nav">
+    <div class="layui-container">
+        <!-- 公司logo -->
+        <div class="nav-logo">
+            <a href="index.html">
+                <img src="res/static/img/logo.jpg" alt="网络公司" style="height: 70px; width: 70px; border-radius: 50%">
+            </a>
+        </div>
+        <div class="nav-list">
+            <button>
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="layui-nav" lay-filter="">
+                <li class="layui-nav-item"><a href="index.html">首页</a></li>
+                <li class="layui-nav-item"><a href="product.html">山人米香醇酒品价格</a></li>
+                <li class="layui-nav-item"><a href="news.html">酒品介绍</a></li>
+                <li class="layui-nav-item layui-this"><a href="case.html">关于我们</a></li>
+				<li class="layui-nav-item"><a href="index.html">淘宝直营店铺</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- banner部分 -->
+<div class="banner case">
+    <div class="title">
+        <p>关于我们</p>
+        <p class="en">About us</p>
+    </div>
+</div>
+<!-- main部分 -->
+<div class="main-case">
+    <div class="layui-container">
+        <div class="layui-row">
+           <div class="layui-inline content">
+                <div class="layui-inline case-img"><img src="res/static/img/case1.jpg"></div>
+                <p class="lable">食品经营许可证</p>
+         
+            </div>
+            <div class="layui-inline content even center">
+                <div class="layui-inline case-img"><img src="res/static/img/case2.jpg"></div>
+                <p class="lable">营业执照</p>
+     
+
+       
+            </div>
+        </div>
+        <!--      <div id="casePage"></div>-->
+    </div>
+</div>
+<!-- footer部分 -->
+<div class="footer">
+    <div class="layui-container">
+        <p class="footer-web">
+ <a href="javascript:;">销售地址：广东省河源市紫金县城金山大道西城桥东山人米香醇酒行</a>
+        </p>
+        <div class="layui-row footer-contact">
+
+            <div class="layui-col-sm10 layui-col-lg11">
+                <div class="layui-row">
+                    <div class="layui-col-sm6 layui-col-md8 layui-col-lg9">
+                        <p class="contact-top"><i class="layui-icon layui-icon-cellphone"></i>&nbsp;133-2263-7258&nbsp;&nbsp;(9:00-20:00)
+                        </p>
+                        <p class="contact-bottom"><i
+                                class="layui-icon layui-icon-home"></i>&nbsp微信：13322637258</span></p>
+                    </div>
+                    <div class="layui-col-sm6 layui-col-md4 layui-col-lg3">
+                        <p class="contact-bottom"><span class="right">©&nbsp;粤ICP备19009062号</a></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+<script src="res/layui/layui.js"></script>
+<!--[if lt IE 9]>
+<script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+<script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script>
+    layui.config({
+        base: 'res/static/js/'
+    }).use('firm');
+</script>
+</body>
+</html>
